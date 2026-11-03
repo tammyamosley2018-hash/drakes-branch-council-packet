@@ -17,6 +17,7 @@ export const SECTIONS = [
   "GF Bills Paid",
   "WS Bills Paid",
   "Police Report",
+  "Fire Department Report",
   "Exhibits",
   "Committee Reports",
   "Your Packet",
@@ -34,8 +35,9 @@ const SECTION_DEFS = [
   { key: "GF_BILLS_PAID", title: "General Fund Bills Paid", check: "This one's easy to forget — confirm it's not empty if bills were actually paid this period." },
   { key: "WS_BILLS_PAID", title: "Water/Sewer Bills Paid", check: "This one's easy to forget — confirm it's not empty if bills were actually paid this period." },
   { key: "POLICE_REPORT", title: "Police Report", check: "Does this match the police report for this period?" },
+  { key: "FIRE_REPORT", title: "Fire Department Report", check: "Does this match the Fire/911 report for this period? Permanent staple as of November 2026 — should never be skipped." },
   { key: "EXHIBITS", title: "Exhibits", check: "Are the right exhibits listed, with personnel items left out?" },
-  { key: "COMMITTEE_REPORTS", title: "Committee Reports", check: "Are the right committees listed?" },
+  { key: "COMMITTEE_REPORTS", title: "Committee Reports", check: "All eight standing committees should be listed, every month, even if most just say \"No report.\" — confirm none are missing." },
 ];
 
 export const SCREENS = [

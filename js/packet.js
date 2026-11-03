@@ -25,6 +25,7 @@ const COMPILE_ORDER = [
   "GF_BILLS_PAID",
   "WS_BILLS_PAID",
   "POLICE_REPORT",
+  "FIRE_REPORT",
   "EXHIBITS",
   "COMMITTEE_REPORTS",
 ];
@@ -40,6 +41,7 @@ const TITLES = {
   GF_BILLS_PAID: "General Fund Bills Paid",
   WS_BILLS_PAID: "Water/Sewer Bills Paid",
   POLICE_REPORT: "Police Report",
+  FIRE_REPORT: "Fire Department Report",
   EXHIBITS: "Exhibits",
   COMMITTEE_REPORTS: "Committee Reports",
 };
